@@ -1,0 +1,30 @@
+HTML
+	<table>
+		<tbody id=”tbody”>
+			<tr>
+				<th>Sr</th>
+				<th>Item name</th>
+			</tr>
+			<tr>
+				<td>1</td>
+				<td>Rice 2 Kg</td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>Maggie Noodles</td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td>Eggs</td>
+			</tr>
+		</tbody>
+	</table>
+
+
+Jquery
+$(document).ready(function(){
+	var rownumber=2;
+	$('table').eq(rownumber+1).remove();
+
+
+});
