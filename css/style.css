@@ -36,6 +36,7 @@ header *
 header h2
 {
 	font-size: 2em;
+	margin-bottom: 0.5em;
 }
 header h4
 {
@@ -44,7 +45,7 @@ header h4
 }
 header h3
 {
-	font-size: 1.8em;
+	font-size: 1.7em;
 	margin: 0.2em;
 }
 header h2,h3,h4
@@ -178,4 +179,19 @@ header h2,h3,h4
 .loginbttn:hover
 {
 	background: rgb(83, 119, 226);
+}
+
+footer h6
+{
+	font-size: 0.8em;
+	margin: 0.2em;
+	font-weight: 400;
+}
+footer h6 a
+{
+	color: #fff;
+}
+footer *
+{
+	text-align: center;
 }
