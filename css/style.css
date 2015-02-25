@@ -1,0 +1,64 @@
+
+
+
+/*--------- Fonts ---------- */
+
+p,a,h1,h2,h3,h4,h5,h6
+{
+	font-family: 'Open Sans', sans-serif;
+}
+.whitecol
+{
+	color: #fff;
+}
+.blackcol
+{
+	color: #000;
+}
+/*----------- Body Styling-------------*/
+
+body
+{
+	background: rgb(0, 144, 255);
+}
+header
+{
+
+}
+header *
+{
+	text-align: center;
+}
+header h2
+{
+	font-size: 2em;
+}
+header h4
+{
+	font-size: 1.5em;
+	margin: 0.2em;
+}
+header h3
+{
+	font-size: 1.8em;
+	margin: 0.2em;
+}
+header h2,h3,h4
+{
+	font-weight: 300;
+}
+.loginwrapper
+{
+	width: 500px;
+	display: block;
+	background: #dbdbdb;
+	min-height: 300px;
+	margin: 2em auto;
+}
+.loginwrapper h4
+{
+	text-align: center;
+	padding: 0.5em;
+	background: rgb(28, 66, 178);
+	color: #fff;
+}
