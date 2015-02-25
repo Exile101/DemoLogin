@@ -1,0 +1,13 @@
+Table name is not specified in the problem. Assuming is cellphone
+
+
+SELECT
+    Model, Seller,Price, COUNT(Model),COUNT(Price)
+FROM
+    cellphone
+GROUP BY
+    Model,Price
+HAVING 
+    COUNT(Model) > 1
+AND
+    Count(Price) > 1
