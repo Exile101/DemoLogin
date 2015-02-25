@@ -1,6 +1,10 @@
 
 
-
+/*----------- Defaults------------*/
+a
+{
+	text-decoration: none;
+}
 /*--------- Fonts ---------- */
 
 p,a,h1,h2,h3,h4,h5,h6
@@ -55,10 +59,42 @@ header h2,h3,h4
 	min-height: 300px;
 	margin: 2em auto;
 }
-.loginwrapper h4
+.loginwrapper a h4
 {
 	text-align: center;
-	padding: 0.5em;
-	background: rgb(28, 66, 178);
+	padding: 0.8em;
+	background: rgb(42, 74, 153);
 	color: #fff;
+	font-weight: 500;
+	margin: 0.4em 0;
+}
+.loginwrapper h5
+{
+	text-align: center;
+	position: relative;
+	width: 90%;
+	display: block;
+	margin: 0 auto;
+}
+.loginwrapper h5 span
+{
+	display: inline-block;
+	color: #939393;
+}
+.loginwrapper h5 span:before,
+.loginwrapper h5 span:after
+{
+	border-top: 1px solid #939393;
+    display: block;
+    height: 1px;
+    content: " ";
+    width: 32%;
+    position: absolute;
+    left: 0;
+    top: 0.8em;
+}
+.loginwrapper h5 span:after
+{
+	right: 0;  
+   left: auto; 
 }
