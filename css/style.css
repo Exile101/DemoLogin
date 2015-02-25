@@ -197,6 +197,10 @@ footer h6 a
 {
 	color: #fff;
 }
+footer h6 a:hover
+{
+	color: #333;
+}
 footer *
 {
 	text-align: center;
