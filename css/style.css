@@ -58,6 +58,7 @@ header h2,h3,h4
 	background: #dbdbdb;
 	min-height: 300px;
 	margin: 2em auto;
+	padding-bottom: 10px;
 }
 .loginwrapper a h4
 {
@@ -103,12 +104,20 @@ header h2,h3,h4
 {
 	padding: 2px 2em;
 	vertical-align: middle;
+	font-family: 'Open Sans', sans-serif;
+}
+.login h4
+{
+	color: #606060;
+	font-size: 0.9em;
+	margin: 0.5em;
 }
 .login span
 {
 	padding: 0.8em;
 	background: #c1c1c1;
-	color: rgb(107, 107, 107);
+	color: rgb(86, 86, 86);
+	font-weight: 500;
 }
 .login input[type=text]
 {
@@ -128,4 +137,45 @@ header h2,h3,h4
 .spanpass
 {
 	border-bottom: 2px solid rgb(252, 88, 88);
+}
+.prState
+{
+	padding: 0 !important;
+	background: none !important;
+}
+.prState a
+{
+	padding: 0;
+	color: rgb(38, 175, 255);
+	background: none;
+}
+.signupbttn
+{
+	padding: 1em;
+	background: rgb(219, 63, 63);
+	color: #fff;
+	border:none;
+	width: 95%;
+	margin: 10px 2.5%;
+	display: block;
+	cursor: pointer;
+}
+.signupbttn:hover
+{
+	background: rgb(255, 91, 91);
+}
+.loginbttn
+{
+	background: rgb(36, 91, 201);
+	padding: 1em;
+	color: #fff;
+	border:none;
+	width: 95%;
+	margin: 10px auto 0 auto;
+	display: block;
+	cursor: pointer;
+}
+.loginbttn:hover
+{
+	background: rgb(83, 119, 226);
 }
