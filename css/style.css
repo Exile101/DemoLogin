@@ -70,6 +70,10 @@ header h2,h3,h4
 	font-weight: 500;
 	margin: 0.4em 0;
 }
+.loginwrapper a h4:hover
+{
+	background: rgb(53, 93, 196);
+}
 .loginwrapper h5
 {
 	text-align: center;
@@ -119,12 +123,14 @@ header h2,h3,h4
 	background: #c1c1c1;
 	color: rgb(86, 86, 86);
 	font-weight: 500;
+	width: 1em;
+	text-align: center;
 }
 .login input[type=text]
 {
 	border: none;
 	padding: 1em;
-	min-width: 85%; 
+	min-width: 82%; 
 	height: 100%;
 }
 .spanname
