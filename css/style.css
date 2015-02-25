@@ -80,6 +80,7 @@ header h2,h3,h4
 {
 	display: inline-block;
 	color: #939393;
+	padding-bottom: 1em;
 }
 .loginwrapper h5 span:before,
 .loginwrapper h5 span:after
@@ -97,4 +98,34 @@ header h2,h3,h4
 {
 	right: 0;  
    left: auto; 
+}
+.login
+{
+	padding: 2px 2em;
+	vertical-align: middle;
+}
+.login span
+{
+	padding: 0.8em;
+	background: #c1c1c1;
+	color: rgb(107, 107, 107);
+}
+.login input[type=text]
+{
+	border: none;
+	padding: 1em;
+	min-width: 80%; 
+	height: 100%;
+}
+.spanname
+{
+	border-bottom: 2px solid rgb(82, 196, 249);
+}
+.spanemail
+{
+	border-bottom: 2px solid rgb(73, 252, 147);
+}
+.spanpass
+{
+	border-bottom: 2px solid rgb(252, 88, 88);
 }
